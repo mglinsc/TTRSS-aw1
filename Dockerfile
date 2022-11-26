@@ -1,4 +1,5 @@
-FROM docker.io/alpine:3 AS builder
+#FROM docker.io/alpine:3 AS builder
+FROM alpine:3.16
 
 # Download ttrss via git
 WORKDIR /var/www
